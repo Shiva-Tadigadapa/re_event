@@ -46,4 +46,4 @@ mongoose.connect(process.env.MONGO_URI).then(() => {
 }
 );
 
-app.listen(port, () => console.log(`yowamio listening on port ${port}!`));
+// app.listen(port, () => console.log(`yowamio listening on port ${port}!`));
